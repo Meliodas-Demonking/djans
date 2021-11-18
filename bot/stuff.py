@@ -29,12 +29,12 @@ async def up(event):
 
 async def start(event):
     await event.reply(
-        f"Hi `{event.sender.first_name}`\nThis is A Bot  Which Can Encode Videos.\nReduce Size of Videos in 480p\nU can Generate Samples/screenshots too.",
+        f"Hi `{event.sender.first_name}`\nThis is A Bot  Which Can Encode Videos.\nReduce Size of Videos in 720p\nU by@Mk255.",
         buttons=[
-            [Button.url("GROUP", url="t.me/anime_hub_group")],
+            [Button.url("GROUP", url="t.me/animesubadub")],
             [
-                Button.url("CHANNEL", url="t.me/animes_encoded"),
-                Button.url("BOSS", url="t.me/Bro_isDarkal"),
+                Button.url("CHANNEL", url="t.me/animesubadub"),
+                Button.url("BOSS", url="@Lollu11"),
             ],
         ],
     )

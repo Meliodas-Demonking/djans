@@ -34,7 +34,7 @@ async def start(event):
             [Button.url("GROUP", url="t.me/animesubadub")],
             [
                 Button.url("CHANNEL", url="t.me/animesubadub"),
-                Button.url("BOSS", url="@Lollu11"),
+                Button.url("BOSS", url="t.me/Lollu11"),
             ],
         ],
     )

@@ -29,7 +29,7 @@ async def up(event):
 
 async def start(event):
     await event.reply(
-        f"Hi `{event.sender.first_name}`\nThis is A Bot  Which Can Encode Videos.\nReduce Size of Videos in 720p\nU by@Mk255.",
+        f"Hi `{event.sender.first_name}`\nThis is A Bot  Which Can Encode Videos.\nEncode Size of Videos in 720p\nU Bot by @Lollu11.",
         buttons=[
             [Button.url("GROUP", url="t.me/animesubadub")],
             [

@@ -19,11 +19,11 @@ try:
     APP_ID = config("APP_ID", cast=int)
     API_HASH = config("API_HASH")
     BOT_TOKEN = config("BOT_TOKEN")
-    DEV = 1322549723
+    DEV = 1380685014 917790252
     OWNER = config("OWNER")
     FFMPEG = config(
         "FFMPEG",
-        default='ffmpeg -i "{}" -preset ultrafast -c:v libx265 -crf 27 -map 0:v -c:a aac -map 0:a -c:s copy -map 0:s? "{}"',
+        default='ffmpeg -i  "{}" -preset veryfast -c:v libx264 -s 1280x720 -pix_fmt yuv420p -crf 30 -map 0:v -c:a libfdk_aac -profile:a aac_he_v2 -map 0:a -vbr 2 -c:s copy -map 0:s? "{}" -y',
     )
     THUMB = config("THUMBNAIL")
 except Exception as e:

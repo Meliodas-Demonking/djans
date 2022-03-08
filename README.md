@@ -15,7 +15,7 @@
 
 `Heroku`
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mayankpawar2458/yo)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Meliodas-Demonking/djans)
 
 `
 
